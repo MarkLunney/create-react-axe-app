@@ -18,6 +18,7 @@ function App() {
         >
           Learn React
         </a>
+        <div className="inaccessible" onClick={() => { console.log("Inaccessible Link Clicked!")}}>Test Accessibility</div>
       </header>
     </div>
   );
